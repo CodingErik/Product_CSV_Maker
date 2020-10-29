@@ -19,7 +19,9 @@ const addDataToArrayForClosure = (data, userInput) => {
     }
 };
 const jsonToCsv = (json) => json2csv(json, { fields: ["sku", "title", "hardware", "price"] })
-const writeToFile = (input, nameOfFile) => fs.writeFileSync(`.${nameOfFile}.csv`, input)
+// const writeToFile = (input, nameOfFile) => fs.writeFileSync(`.${nameOfFile}.csv`, input)
+const writeToFile = (input, nameOfFile) => fs.appendFileSync(`.${nameOfFile}.csv`,`${input}`); 
+
 
 // async method with closure  
 async function converter2(newItem) {

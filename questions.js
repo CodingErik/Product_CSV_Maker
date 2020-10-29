@@ -35,7 +35,7 @@ const nameFileQuestion = [
     {
         name: "fileName",
         type: "input",
-        message: "what would you like to call your file? ",
+        message: "Enter the name of an existing file or a new Name to create one ",
     },
 ]
 
