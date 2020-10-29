@@ -49,7 +49,7 @@
   
   [Contributor Covenant](https://www.contributor-covenant.org/)
   
-  ## Test
+  ## Tests
   
   no current test have been runned for this code. If you would like to submit a pull request feel free to do so!
   
